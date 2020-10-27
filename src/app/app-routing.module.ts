@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
+import { PeliculaComponent } from './pages/pelicula/pelicula.component';
 
 const routes: Routes = [
   {
@@ -12,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'pelicula/:id',
-    component: HomeComponent
+    component: PeliculaComponent
   },
   {
     path: 'buscar/texto',

@@ -7,5 +7,5 @@ import { PeliculasService } from './services/peliculas.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  
 }

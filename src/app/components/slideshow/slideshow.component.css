@@ -1,11 +1,11 @@
-.swipe-container {
-    height: 330px;
+.swiper-container {
+    height: 300px;
     width: 100%;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: white;
+    color: #ffffff;
 }
 
 .movie-description {
